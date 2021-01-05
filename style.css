@@ -2,22 +2,22 @@ body {
   background: #fefefe;
 }
 
-.tittle {
+.header__tittle {
   color: #084c61;
 }
 
-.tittle-hello {
+.hello__tittle {
   color: #177e89;
 }
 
-.tittle-notes {
+.notes__tittle {
   color: #177e89;
 }
 
-.tittle-frontend {
+.frontend__tittle {
   color: #177e89;
 }
 
-.tittle-paragraph {
+.article__tittle {
   color: #db3a34;
 }
