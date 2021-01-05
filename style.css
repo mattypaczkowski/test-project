@@ -2,6 +2,12 @@ body {
   background: #fefefe;
 }
 
+main {
+  max-width: 1000px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
 .header__tittle {
   color: #084c61;
 }
