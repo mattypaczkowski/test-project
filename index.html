@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>test project</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <header class="top">
+    <header clśass="top">
       <nav class="navigator">
+        <a class="navigator__link" href="index.html">Home</a>
+        <a class="navigator__link" href="index.html">Home</a>
+        <a class="navigator__link" href="index.html">Home</a>
         <a class="navigator__link" href="index.html">Home</a>
         <a class="navigator__link" href="front-end.html">Front-end</a>
       </nav>
@@ -17,11 +21,19 @@
 
     <main>
       <header class="header">
-        <h1 class="header__tittle">Test project</h1>
+        <h1 class="header__tittle header__tittle--js">Test project</h1>
       </header>
 
+      <section>
+        <form onsubmit="return calculate()">
+          <input id="input-x" type="text" />
+          <input id="input-y" type="text" />
+          <input class="submit" type="submit"/>
+        </form>
+      </section>
+
       <section class="hello">
-        <h2 class="hello__tittle">Cześć</h2>
+        <h2 class="hello__tittle hello__tittle--js">Cześć</h2>
         <p class="hello__paragraph">
           Jestem Mateusz i moim marzeniem jest zostać programista. Ta strona to
           taki brudnopis, w którym bede testował programistyczne zagadnienia z
@@ -76,7 +88,7 @@
       </section>
 
       <footer class="footer">
-        <p>To jest stopka</p>
+        <p class="footer__paragraph">To jest stopka</p>
       </footer>
     </main>
 

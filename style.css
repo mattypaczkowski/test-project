@@ -1,15 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 body {
-  background: #fefefe;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 main {
   max-width: 1000px;
-  box-sizing: border-box;
   margin: 0 auto;
+  padding: 0 16px;
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffcc00;
+  padding: 16px;
 }
 
 .header__tittle {
   color: #084c61;
+  margin-top: 0;
+  padding: 16px;
 }
 
 .hello__tittle {
