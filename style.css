@@ -45,3 +45,7 @@ main {
 .article__tittle {
   color: #db3a34;
 }
+
+.article__list {
+  list-style-type: decimal;
+}
