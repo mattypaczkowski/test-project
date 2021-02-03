@@ -45,3 +45,12 @@ function calculate(e) {
   console.log(sum);
   return false;
 }
+
+/* hamburger menu */
+
+const hamburger = document.querySelector('.hamburger-js');
+
+hamburger.addEventListener('click', () => {
+  const nav = document.querySelector('.navigator');
+  nav.classList.toggle('navigator__show');
+})
