@@ -79,17 +79,18 @@ main {
 @media (max-width: 425px) {
 
   .top {
+    display: block;
     background-color:  #ffcc00;
     height: 60px;
     width: 100%;
   }
   
-  .navigator{
+  .navigator {
     display: none;
     z-index: 1;
   }
 
-  .navigator__show {
+  .navigator__show--js {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -108,11 +109,16 @@ main {
     background: #ffcc00;
   }
 
+
   .header__tittle {
     color: #084c61;
     margin-top: 0;
     padding: 16px 0px;
     margin-top: 52px;
   }
-  
+
+  .header--space__js {
+    margin-top: 196px;
+   }
+
 }

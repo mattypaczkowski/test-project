@@ -40,7 +40,7 @@ function calculate(e) {
   const y = document.querySelector("#input-y").value;
   const nubmerOne = Number(x);
   const numberTwo = Number(y);
-  const sum = nubmerOne + numberTwo;
+  const sum = nubmerOne + numberTwo
 
   console.log(sum);
   return false;
@@ -52,5 +52,8 @@ const hamburger = document.querySelector('.hamburger-js');
 
 hamburger.addEventListener('click', () => {
   const nav = document.querySelector('.navigator');
-  nav.classList.toggle('navigator__show');
+  nav.classList.toggle('navigator__show--js');
+  if (nav === true);
+  const space = document.querySelector('.header')
+  space.classList.toggle('header--space__js')
 })
