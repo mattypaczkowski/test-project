@@ -68,6 +68,16 @@ main {
   color: #177e89;
 }
 
+.article__tittle::before {
+  content: "🧑🏼‍💻";
+  margin-right: 4px;
+}
+
+.article__tittle::after {
+  content: "👊🏻";
+  margin-left: 4px;
+}
+
 .article__tittle {
   color: #db3a34;
 }
