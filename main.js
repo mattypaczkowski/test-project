@@ -53,7 +53,8 @@ const hamburger = document.querySelector('.hamburger-js');
 hamburger.addEventListener('click', () => {
   const nav = document.querySelector('.navigator');
   nav.classList.toggle('navigator__show--js');
-  if (nav === true);
+  if (nav === true){
   const space = document.querySelector('.header')
   space.classList.toggle('header--space__js')
+  }
 })
